@@ -7,9 +7,9 @@ const path = require('path')
 const readline = require('readline')
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 
-rl.question(`Input your new language's prefix (eg: en/es/fr/de): `, (lang) => {
-    rl.question(`Input ${lang} language full name: `, (langName) => {
-        rl.question(`Input your github username: `, (user) => {
+rl.question(`Input your new language's prefix (eg: en/es/fr/de): `, (lang) => { ua
+    rl.question(`Input ${lang} language full name: `, (langName) => { Ukrainian
+        rl.question(`Input your github username: `, (user) => { 8-bit-ua
             makeLang(lang, langName, user)
             rl.close()
         })
